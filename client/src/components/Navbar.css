@@ -1,0 +1,33 @@
+*{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 144 rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    padding: auto;
+}
+
+
+ul{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+

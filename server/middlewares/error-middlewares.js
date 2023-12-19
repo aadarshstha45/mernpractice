@@ -1,0 +1,10 @@
+const errorMiddleware = (err, req, res, next) => {
+    const status = err.status || 500;
+    const message = err.message || "Error";
+    const details = err.details || "Error";
+
+
+    return res.status(status).json({message, details});
+}
+
+module.exports = errorMiddleware;
